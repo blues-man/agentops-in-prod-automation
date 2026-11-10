@@ -3,10 +3,10 @@
 
 bootstrap:
   # Git repository URL
-  repoURL: https://github.com/rhpds/agentops-in-prod-automation
+  repoURL: https://github.com/blues-man/agentops-in-prod-automation
   # Publish this tag from the reviewed release commit before consumers use it.
   # For pre-merge testing, override this with the PR branch or commit.
-  targetRevision: v1.0.2
+  targetRevision: patch-1
 
 gitops:
   controller:
