@@ -24,7 +24,7 @@ secrets:
   # API secrets
   DATABASE_URL: "postgresql+asyncpg://user:changeme@mortgage-ai-db:5432/mortgage-ai"
   COMPLIANCE_DATABASE_URL: "postgresql+asyncpg://compliance_app:compliance_pass@mortgage-ai-db:5432/mortgage-ai"
-  DEBUG: "false"
+  DEBUG: "true"
   ALLOWED_HOSTS: '["*"]'
   COMPANY_NAME: "Red Hat AI Quickstart Demo"
   AGENT_NAME: ""
